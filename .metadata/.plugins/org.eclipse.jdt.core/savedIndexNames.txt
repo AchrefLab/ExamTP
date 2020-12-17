@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\labie\Desktop\EXAMEN TP Mohamed Achref LABIEDH\.metadata\.plugins\org.eclipse.jdt.core
+1671692264.index
+2567400925.index
+1862518173.index

@@ -1,0 +1,12 @@
+package firstpack;
+
+public class Role {
+	public Role(String unrole) {
+		
+	}
+	public boolean equals(Object thisobject) {
+		if (this == thisobject) {
+			return true;
+		}else { return false;};
+	}
+}

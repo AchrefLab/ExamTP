@@ -1,0 +1,10 @@
+package firstpack;
+import java.util.ArrayList;
+
+public class Utilisateur {
+	public Utilisateur() {
+		
+	}
+	List<ServeurDiscussion> serveurs;
+	
+}

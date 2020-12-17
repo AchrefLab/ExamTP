@@ -1,0 +1,26 @@
+package firstpack;
+import java.util.ArrayList;
+import java.util.Map;
+
+public class Canal implements Comparable ,Destinataire{
+	public Canal() {
+		
+	}
+	public Map<Role, ArrayList<Utilisateur>> mapping_role_utilisateur= new Map <Role, ArrayList>();
+	public int ordre;
+	public ArrayList<Webhook> webhooks;
+	public String nom;
+	public Map<Role, ArrayList<Habilitation>> mapping_role_habilitations;
+	public ArrayList<Message> historique= new ArrayList<Message>();
+	
+	public void ecrireMessage(Utilisateur sam, Message mess) {
+		historique.add(mess);
+		
+	}
+	public int CompareTo(Canal c) {
+		return Integer.Compare(this,c);
+	}
+	
+	
+	
+}

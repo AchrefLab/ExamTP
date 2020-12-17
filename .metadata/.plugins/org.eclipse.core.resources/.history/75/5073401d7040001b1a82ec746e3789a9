@@ -1,0 +1,34 @@
+package firstpack;
+
+import java.util.ArrayList;
+
+public enum Habilitation {
+	LECTURE,
+	ECRITURE,
+	MODIFICATION,
+	SUPPRESSION,
+	DROIT_INVITATION;
+	
+	public ArrayList<Habilitation> vallues(){
+		ArrayList<Habilitation> thoses = new ArrayList<Habilitation>();
+		thoses.add(ECRITURE);
+		thoses.add(LECTURE);
+		thoses.add(MODIFICATION);
+		thoses.add(SUPPRESSION);
+		thoses.add(DROIT_INVITATION);
+		return thoses;
+	}
+	public Habilitation valueof(String smth) {
+		if (smth == "LECTURE") {
+			return LECTURE;
+		}if(smth=="ECRITURE") {
+			return ECRITURE;
+		}if(smth=="MODIFICATION") {
+			return MODIFICATION;
+		}if(smth=="SUPPRESSION") {
+			return SUPPRESSION;
+		}else {
+			return DROIT_INVITATION;
+		}
+	}
+}

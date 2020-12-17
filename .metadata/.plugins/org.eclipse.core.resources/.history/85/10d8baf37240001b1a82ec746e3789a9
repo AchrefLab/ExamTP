@@ -1,0 +1,7 @@
+package firstpack;
+
+public interface Comparable {
+	public int CompareTo() {
+		return 0;
+	}
+}

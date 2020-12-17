@@ -1,0 +1,28 @@
+package firstpack;
+import java.util.ArrayList;
+import java.util.Map;
+
+public class Canal {
+	public Canal() {
+		
+	}
+	public void ecrireMessage(Utilisateur sam, Message mess) {
+		
+	}
+	public int CompareTo() {
+		return 0;
+	}
+	
+	public Map<Role, ArrayList<Utilisateur>> mapping_role_utilisateur;
+	public int ordre;
+	public ArrayList<Webhook> webhooks;
+	public String nom;
+	public Map<Role, ArrayList<Habilitation>> mapping_role_habilitations;
+	public ArrayList<Message> historique;
+	
+	
+	mapping_role_utilisateur= new HashMap<Role, ArrayList>(); 
+	
+	
+
+}

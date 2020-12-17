@@ -1,0 +1,22 @@
+package firstpack;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Utilisateur {
+	public Utilisateur() {
+		
+	}
+	private List<ServeurDiscussion> serveurs;
+	private String prenom;
+	private String nom;
+	private String login;
+	private String motDePasse;
+	private String mail;
+	
+	void setServeurs(List<ServeurDiscussion> servers) {
+		this.serveurs=servers;
+	}
+	List<ServeurDiscussion> getServeurs(){
+		return this.serveurs;
+	}
+}

@@ -1,0 +1,20 @@
+package firstpack;
+
+import java.util.ArrayList;
+
+public enum Habilitation {
+	LECTURE,
+	ECRITURE,
+	MODIFICATION,
+	SUPPRESSION,
+	DROIT_INVITATION;
+	
+	public ArrayList<Habilitation> values(){
+		ArrayList<Habilitation> thoses = new ArrayList<Habilitation>();
+		thoses.add(ECRITURE);
+		thoses.add(LECTURE);
+		thoses.add(MODIFICATION);
+		thoses.add(SUPPRESSION);
+		thoses.add(DROIT_INVITATION);
+	}
+}

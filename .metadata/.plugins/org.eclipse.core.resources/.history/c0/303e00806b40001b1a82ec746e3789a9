@@ -1,0 +1,14 @@
+package firstpack;
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Map;
+public class ServeurDiscussion {
+	public ServeurDiscussion() {
+		
+	}
+	public Map <Role, List<Utilisateur>> mapping_role_utilisateurs;
+	public List<Canal> canaux;
+	public String nom;
+	public Map <Role, List<Habilitation>> mapping_role_habilitations;
+	
+}
